@@ -1,0 +1,54 @@
+\documentclass{thesis}
+
+\title{The Future of AI in Air Traffic Management: 
+Coordinating Autonomous Airliners and UAM within Busy Airspaces using AI}
+
+\subtitle{Seminar Paper}
+
+\author{Jiahui Dai}
+
+\supervisor{Prof. Christian Seidel}
+
+
+
+
+\begin{document}
+
+% Cover Page (No page number)
+\pagenumbering{gobble}  % Hide page numbering
+
+% \input{coverpage}
+\maketitle
+
+
+
+\include{declaration.tex}
+
+
+% Abstract (Roman numbering starts)
+\pagenumbering{roman}  
+\setcounter{page}{1}  % Start from i
+\include{abstract.tex}
+
+
+% TOC
+\tableofcontents
+\newpage
+
+
+% Content (Start Arabic numbering)
+\pagenumbering{arabic}  
+\setcounter{page}{1}  % Restart page count from 1
+\input{section1.tex}
+% \input{section2.tex}
+\input{section3.tex}
+
+
+\appendix
+\include{appendix.tex}
+
+
+
+
+
+\end{document}
