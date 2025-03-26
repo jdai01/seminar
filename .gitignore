@@ -1,0 +1,5 @@
+# Ignore unnecessary LaTeX .tex generated files
+*.aux
+*.log
+*.synctex.gz
+*.toc
