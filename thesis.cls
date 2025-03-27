@@ -10,8 +10,10 @@
 \RequirePackage{titlesec}  % For section title customization
 \RequirePackage{datetime}  % For date formatting
 \RequirePackage{setspace}  % For line spacing
+\RequirePackage[backend=biber,style=numeric]{biblatex}
 
 \setstretch{1.25}  % Set line spacing to 1.25
+\addbibresource{references.bib}
 
 % Set margins
 \geometry{a4paper, left=2.5cm, right=2.5cm, top=3cm, bottom=3cm}
