@@ -1,3 +1,6 @@
+# Ignore cache files
+*.DS_Store
+
 # Ignore any LaTeX supporting files
 *.aux
 *.log

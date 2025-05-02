@@ -11,9 +11,17 @@
 \RequirePackage{datetime}  % For date formatting
 \RequirePackage{setspace}  % For line spacing
 \RequirePackage[backend=biber,style=numeric]{biblatex}
+\RequirePackage{hyperref}
+\RequirePackage{enumitem}
+\RequirePackage{subcaption} 
+\RequirePackage{amsmath}
+\RequirePackage{xcolor}
 
 \setstretch{1.25}  % Set line spacing to 1.25
 \addbibresource{references.bib}
+
+% Default Image Path
+\graphicspath{{img/}}
 
 % Set margins
 \geometry{a4paper, left=2.5cm, right=2.5cm, top=3cm, bottom=3cm}
@@ -36,15 +44,17 @@
 % Define the title page
 \def\maketitle{
     \begin{titlepage}
-        % \hfill \includegraphics[clip,scale=.35]{thi_AImotion.png}
-        \vspace*{6ex}
+        \begin{center}
+            \includegraphics[width=0.5\textwidth]{thi_logo_wb_RGB.jpg}
+        \end{center}
+        \vspace*{1ex}
         \begin{center}
             {\LARGE \textsc{Technische Hochschule Ingolstadt}} \\[4ex]
             {\Large Faculty of Computer Science \\}
         \end{center}
         \vspace*{3ex}
         \begin{center}
-            {\Huge \textbf{~\\ \@title} \\}
+            {\LARGE \textbf{~\\ \@title} \\}
         \end{center}
         \vspace*{8ex}
         \begin{center}
