@@ -10,7 +10,9 @@ Coordinating Autonomous Airliners and UAM within Busy Airspaces using AI}
 \supervisor{Prof. Christian Seidel}
 
 
-
+% Define acronyms
+\input{acronyms.tex}
+\makeglossaries
 
 \begin{document}
 
@@ -39,14 +41,21 @@ Coordinating Autonomous Airliners and UAM within Busy Airspaces using AI}
 % Content (Start Arabic numbering)
 \pagenumbering{arabic}  
 \setcounter{page}{1}  % Restart page count from 1
-\input{section1.tex}
-% \input{section2.tex}
-\input{section3.tex}
+\input{content/introduction.tex}
+\input{content/background.tex}
+% \input{content/ATM.tex}
+% \input{content/UAM.tex}
+% \input{content/autonomous-airliners.tex}
+% \input{content/UTM.tex}
+% \input{content/conclusion.tex}
+
 
 
 % \appendix
 % \include{appendix.tex}
 
+\newpage
+\printglossaries
 
 \newpage
 \printbibliography

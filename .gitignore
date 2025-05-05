@@ -12,3 +12,10 @@
 *.blg
 *.bbl-SAVE-ERROR
 *.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist

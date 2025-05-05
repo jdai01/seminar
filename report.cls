@@ -16,6 +16,7 @@
 \RequirePackage{subcaption} 
 \RequirePackage{amsmath}
 \RequirePackage{xcolor}
+\RequirePackage[acronym]{glossaries}
 
 \setstretch{1.25}  % Set line spacing to 1.25
 \addbibresource{references.bib}
