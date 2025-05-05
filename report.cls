@@ -10,7 +10,7 @@
 \RequirePackage{titlesec}  % For section title customization
 \RequirePackage{datetime}  % For date formatting
 \RequirePackage{setspace}  % For line spacing
-\RequirePackage[backend=biber,style=numeric]{biblatex}
+\RequirePackage[backend=biber,style=numeric,sorting=none]{biblatex}
 \RequirePackage{hyperref}
 \RequirePackage{enumitem}
 \RequirePackage{subcaption} 
