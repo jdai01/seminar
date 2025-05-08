@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{thesis}[2025/03/21 Custom Thesis Class]
+\ProvidesClass{report}[2025/03/21 Custom Thesis Class]
 
 % Default: 12pt Times New Roman
 \LoadClass[12pt]{article}
