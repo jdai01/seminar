@@ -17,8 +17,12 @@
 \RequirePackage{amsmath}
 \RequirePackage{xcolor}
 \RequirePackage[acronym]{glossaries}
+\RequirePackage{parskip}
 
 \setstretch{1.25}  % Set line spacing to 1.25
+\setlength{\parindent}{0pt}  % No paragraph indentation
+\setlength{\parskip}{1em}    % 1em vertical space between paragraphs
+
 \addbibresource{references.bib}
 
 % Default Image Path
@@ -63,14 +67,14 @@
             {\Large \@author  \\}
         \end{center}
         \vspace*{15ex}
-        \begin{center}
+        % \begin{center}
             {\large
             \begin{tabular}{ r l }
                 Supervisor: & \@supervisor \\ 
                 Date: & \customdate\today
             \end{tabular}
             }
-        \end{center}	
+        % \end{center}	
     \end{titlepage}
 }
 % Header & Footer

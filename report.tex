@@ -14,26 +14,28 @@ Coordinating Autonomous Airliners and UAM within Busy Airspaces using AI}
 \input{acronyms.tex}
 \makeglossaries
 
+
+
 \begin{document}
-
-% Cover Page (No page number)
 \pagenumbering{gobble}  % Hide page numbering
-
-% \input{coverpage}
 \maketitle
-
-
-
-\include{declaration.tex}
-
-
-% Abstract (Roman numbering starts)
 \pagenumbering{roman}  
 \setcounter{page}{1}  % Start from i
+
+% Declaration
+\include{declaration.tex}
+\newpage
+
+% Acronyms
+\addcontentsline{toc}{section}{Acronyms}
+\markright{Acronyms}
+\vspace*{-4.5em}
+\printglossaries
+
+% Abstract
 \include{abstract.tex}
 
-
-% TOC
+% Table of Contents
 \tableofcontents
 \newpage
 
@@ -41,20 +43,6 @@ Coordinating Autonomous Airliners and UAM within Busy Airspaces using AI}
 % Content (Start Arabic numbering)
 \pagenumbering{arabic}  
 \setcounter{page}{1}  % Restart page count from 1
-% \input{content/introduction.tex}
-% \input{content/foundation-enablers.tex}
-% \input{content/unified-airspace-challenge.tex}
-% \input{content/UTM.tex}
-% \input{content/aUTM.tex}
-% \input{content/discussion.tex}
-% \input{content/conclusion.tex}
-
-
-% \input{content_new/UAS.tex}
-% \input{content_new/ATM.tex}
-% \input{content_new/future.tex}
-% \input{content_new/conclusion.tex}
-
 \input{1_Intro/main.tex}
 \input{2_Future/main.tex}
 \input{3_Challenges/main.tex}
@@ -65,10 +53,10 @@ Coordinating Autonomous Airliners and UAM within Busy Airspaces using AI}
 % \appendix
 % \include{appendix.tex}
 
-\newpage
-\printglossaries
 
+% References
 \newpage
+\addcontentsline{toc}{section}{References}
 \printbibliography
 
 
