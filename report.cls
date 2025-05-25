@@ -67,14 +67,14 @@
             {\Large \@author  \\}
         \end{center}
         \vspace*{15ex}
-        % \begin{center}
+        \begin{center}
             {\large
             \begin{tabular}{ r l }
                 Supervisor: & \@supervisor \\ 
                 Date: & \customdate\today
             \end{tabular}
             }
-        % \end{center}	
+        \end{center}	
     \end{titlepage}
 }
 % Header & Footer
