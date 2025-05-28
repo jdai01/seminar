@@ -30,6 +30,7 @@
 
 % Set margins
 \geometry{a4paper, left=2.5cm, right=2.5cm, top=3cm, bottom=3cm}
+\setlist{noitemsep, topsep=1pt}
 
 % Set date format to DD mmmm YYYY
 \newdateformat{customdate}{\THEDAY~\monthname[\THEMONTH]~\THEYEAR}
