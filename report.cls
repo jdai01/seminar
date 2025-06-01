@@ -51,10 +51,11 @@
 % Define the title page
 \def\maketitle{
     \begin{titlepage}
+        \vspace*{2ex}
         \begin{center}
-            \includegraphics[width=0.5\textwidth]{thi_logo_wb_RGB.jpg}
+            \hfill \includegraphics[clip=,scale=.35]{thi_AImotion.png}
         \end{center}
-        \vspace*{1ex}
+        \vspace*{6ex}
         \begin{center}
             {\LARGE \textsc{Technische Hochschule Ingolstadt}} \\[4ex]
             {\Large Faculty of Computer Science \\}
@@ -91,7 +92,7 @@
 \pagestyle{fancy}
 \fancyhf{}  % Clear all default header/footer settings
 \fancyhead[L]{\textbf{\@title}}  % Left header: Title
-\fancyhead[R]{}  % Right header: Page number
+% \fancyhead[RO]{\includegraphics[width=1cm]{thi_AImotion_logo} }
 \renewcommand{\headrulewidth}{0.4pt}  % Horizontal line under header
 
 % Footer Configuration
